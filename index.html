@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Catter LandingPage</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+</head>
+
+<body>
+    <div id="top" class="wrapper">
+        <div class="header">
+            <div class="slider">
+                <div class="images-silder box-slider-image">
+                    <img src="./images/header.png" alt="Slider" class="box-slider-img">
+                </div>
+                <div class="container text-slider">
+                    <p class="text-top">MULTIPLE PERSPECTIVES</p>
+                    <p class="text-bottom">SOLUTION</p>
+                </div>
+            </div>
+            <div class="menu-header">
+                <div class="nav-menu">
+                    <ul class="menu-list">
+                        <li class="menu-item active">
+                            <a class="menu-item-link link-top" href="#top" onclick="anchorTab($(this))">Top</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item-link link-message" href="#message" onclick="anchorTab($(this))">Message</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item-link link-business" href="#business" onclick="anchorTab($(this))">Business</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item-link link-corporate" href="#corporate" onclick="anchorTab($(this))">Corporate</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item-link link-recruit" href="#recruit" onclick="anchorTab($(this))">Recruit</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item-link link-contact" href="#contact" onclick="anchorTab($(this))">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div id="message" class="box-content-message">
+                <div class="box-breadcrumb">
+                    <span class="breadcrumb-parent">Message</span>
+                    <span class="breadcrumb-child">会社案内</span>
+                </div>
+                <div class="box-content">
+                    <div class="row  box-message-warpper">
+                        <div class="col-sm-6 box-text">
+                            <p class="text-detail">私たちの周りには、その土地ならではのすばらしいスポット、商品があります。<br/>
+                                このような情報を分かりやすくデザインし、さまざまな人へ伝えていくための仕組みを作っていくことで新たな人間関係、コミュニケーションが創造されると考えています。</p>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 box-image">
+                            <img src="./images/message.png" alt="" class="box-message-image image-transform">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="business" class="box-business-content box-gray">
+                <div class="box-breadcrumb box-center">
+                    <span class="breadcrumb-parent">Business</span>
+                    <span class="breadcrumb-child">事業内容</span>
+                </div>
+                <div class="box-content">
+                    <div class="box-text">
+                        <p class="text-detail text-center">チラシ、パンフレットから動画、Webサイト制作など、オフライン、オンライン両方の視点からお<br/>
+                            客様のマーケティングのお手伝いする広告代理店です。<br/>
+                            販促・マーケティング、プロモーション・クリエイティブ。<br/>
+                            様々な媒体、メディアを通してお客様の問題解決と、更なる事業発展のお手伝いをいたします
+                        </p>
+                    </div>
+                    <div class="box-business-inner">
+                        <div class="box-icon">
+                            <div class="box-icon-item">
+                                <div class="box-icon-warpper">
+                                    <img src="./images/icon-movie.png" alt="movie" class="box-business-img"> 
+                                    <p class="box-icon-text">movie</p>
+                                </div>
+                            </div>
+                            <div class="box-icon-detail">
+                                <p class="text-icon-detail text-center">テレビCM 販売販促用動画</p>
+                            </div>
+                        </div>
+                        <div class="box-icon">
+                            <div class="box-icon-item">
+                                <div class="box-icon-warpper">
+                                    <img src="./images/icon-paper.png" alt="paper">
+                                    <p class="box-icon-text">paper</p>
+                                </div>
+                            </div>
+                            <div class="box-icon-detail">
+                                <p class="text-icon-detail text-center">チラシ/パンフレット
+                                    リーフレット/ポスター
+                                    新聞版下のデザイン</p>
+                            </div>
+                        </div>
+                        <div class="box-icon">
+                            <div class="box-icon-item">
+                                <div class="box-icon-warpper">
+                                    <img src="./images/icon-web.png" alt="web">
+                                    <p class="box-icon-text">web</p>
+                                </div>
+                            </div>
+                            <div class="box-icon-detail">
+                                <p class="text-icon-detail text-center">Webサイト制作 バナー制作</p>
+                            </div>
+                        </div>
+                        <div class="box-icon">
+                            <div class="box-icon-item">
+                                <div class="box-icon-warpper">
+                                    <img src="./images/icon-other.png" alt="other">
+                                    <p class="box-icon-text">other</p>
+                                </div>
+                            </div>
+                            <div class="box-icon-detail">
+                                <p class="text-icon-detail text-center">パッケージデザイン 看板の企画・施工</p>
+                            </div>
+                        </div>
+                        <div class="box-icon">
+                            <div class="box-icon-item">
+                                <div class="box-icon-warpper">
+                                    <img src="./images/icon-house.png" alt="house">
+                                    <p class="box-icon-text text-green">house</p>
+                                </div>
+                            </div>
+                            <div class="box-icon-detail">
+                                <p class="text-icon-detail text-center">ハウスメンテナンス</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="box-card">
+                <div class="box-card-image">
+                    <img src="./images/background-business.png" alt="background" class="box-card-image-warpper">
+                    <div class="image-card">
+                        <img src="./images/card.png" alt="card" class="box-card-image-inner image-transform">
+                    </div>
+                </div>
+            </div>
+            <div id="corporate" class="box-content-corporate">
+                <div class="box-breadcrumb box-center">
+                    <span class="breadcrumb-parent">Corporate</span>
+                    <span class="breadcrumb-child">会社案内</span>
+                </div>
+                <div class="box-content margin-top-40">
+                    <div class="box-corporate-inner">
+                        <div class="box-corporate-table">
+                            <table class="table-content margin-top-45">
+                                <tr>
+                                    <td>社名</td>
+                                    <td>カテル有限会社</td>
+                                </tr>
+                                <tr>
+                                    <td>本社所在地</td>
+                                    <td>栃木県宇都宮市中央本町4番23号</td>
+                                </tr>
+                                <tr>
+                                    <td>代表者</td>
+                                    <td>渡邉博昭</td>
+                                </tr>
+                                <tr>
+                                    <td>設立年</td>
+                                    <td>平成19年10月</td>
+                                </tr>
+                                <tr>
+                                    <td>設立年</td>
+                                    <td>1,000 万円</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="box-content-image-corporate">
+                            <img src="./images/corporate.png" alt="corporate" class="box-image-corporate image-transform">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="recruit" class="box-recruit-content box-gray">
+                <div class="box-breadcrumb box-center">
+                    <span class="breadcrumb-parent">Recruit</span>
+                    <span class="breadcrumb-child">採用情報</span>
+                </div>
+                <div class="box-content">
+                    <div class="box-recruit-image">
+                        <img src="./images/recruit-1.png" alt="recruit" class="box-recruit-img image-transform">
+                    </div>
+                    <div class="box-recruit-text">
+                        <p class="text-detail">自分の頭で考え、行動できる人材を求めています。営業、企画、マーケティング、提案など、お客様にとって最善の解決策を考え抜く。そんなお客様目線に立って、考える続ける姿勢を大切にしています。すでに持っているスキルや興味など、自分の得意とする分野で力を最大限発揮し、活躍できる人を待っています！</p>
+                    </div>
+                    <div class="box-button-more text-center margin-top-60">
+                        <button class="btn-more" type="button">More</button>
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="box-item box-contact-content">
+                <div class="box-breadcrumb">
+                    <span class="breadcrumb-parent">Contact</span>
+                    <span class="breadcrumb-child">お問い合わせ</span>
+                </div>
+                <div class="row">
+                    <div class="contact-warpper">   
+                        <div class="col-sm-6">
+                            <div class="box-content">
+                                <div class="box-text">
+                                    <p class="text-detail">各種お仕事に関するお問合わせ、採用に関するお問い合わせ、 その他、会社に関することなど、ご要望やご質問はこちらからお気軽にお問い合わせください。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="box-button-more text-center margin-top-60">
+                                <button class="btn-more border-gray" type="button">More</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 margin-top-25">
+                            <img src="./images/contact.png" alt="contact" class="box-image-contac image-transform">
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-to-top">
+                    <span class="button-to-top">page top</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="text-footer pull-right">Copyright(c).,All Rights Reserved.</p>
+        </div>
+    </div>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

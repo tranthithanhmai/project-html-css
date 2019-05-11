@@ -1,0 +1,290 @@
+@media only screen and (min-width: 1200px) {
+    .box-card-image-warpper {
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+    }
+
+    .box-icon-item {
+        padding: 60px 20px;
+    }
+
+    .box-recruit-img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .text-bottom {
+        font-size: 120px;
+        color: #ebff07;
+        font-weight: 900;
+        letter-spacing: 50px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: -10px;
+    }
+
+    .text-top {
+        font-size: 46px;
+        color: #ffffff;
+        font-weight: 900;
+        letter-spacing: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .box-corporate-table {
+        margin: 0 15px;
+        padding-right: 0;
+    }
+
+    .box-corporate-inner {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .text-bottom {
+        font-size: 90px;
+        color: #ebff07;
+        font-weight: 900;
+        letter-spacing: 40px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: -10px;
+    }
+    .text-top {
+        font-size: 40px;
+        color: #ffffff;
+        font-weight: 900;
+        letter-spacing: 11px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .box-card-image-warpper{
+        height: 230px;
+    }
+
+    .box-card-image-warpper,
+    .box-card-image-inner {
+        width: 100%;
+    }
+
+    .box-content-message,
+    .box-business-content,
+    .box-content-corporate,
+    .box-recruit-content,
+    .box-contact-content {
+        padding: 70px;
+    }
+
+    .box-content-image-corporate {
+        display: flex;
+        justify-content: center;
+    }
+
+    .box-corporate-table {
+        margin: 0;
+        padding-right: 0;
+    }
+
+    .box-recruit-img {
+        width: 100%;
+    }
+
+    .box-recruit-text .text-detail {
+        padding: 35px 0;
+        font-family: 'Hiragino Sans', 'Noto Sans Japanese', 'Yu Gothic', 'Meiryo', 'Hiragino Kaku Gothic Pro', '游ゴシック', 'メイリオ', 'MS ゴシック', 'sans-serif';
+    }
+
+    .box-corporate-inner {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .box-business-inner {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 60px auto 0;
+        width: 100%;
+    }
+
+    .box-icon-item {
+        padding: 15px 20px;
+    }
+
+    .box-button-more {
+        margin-top: 25px;
+    }
+
+    .nav-menu {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .box-item {
+        padding: 50px;
+    }
+
+    .box-content-message,
+    .box-business-content {
+        padding: 50px;
+    }
+
+    .menu-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .text-top {
+        font-size: 22px;
+        color: #ffffff;
+        font-weight: 900;
+        letter-spacing: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .text-bottom {
+        font-size: 40px;
+        color: #ebff07;
+        font-weight: 900;
+        letter-spacing: 25px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 0;
+    }
+
+    .text-slider {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        margin-top: -15px;
+    }
+
+    .menu-item {
+        padding: 20px 0;
+        text-transform: uppercase;
+        width: 33.33%;
+        text-align: center;
+        position: relative;
+        border: 1px solid #656b6d;
+    }
+
+    .menu-item::before {
+        content: none;
+    }
+
+    .nav-menu {
+        padding: 0;
+    }
+
+    .box-card-image-inner {
+        width: 90%;
+    }
+
+    .box-message-warpper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    
+    .contact-warpper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .box-card-image-warpper,
+    .box-card-image-inner,
+    .box-image-corporate,
+    .box-recruit-img,
+    .box-message-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .box-business-inner {
+        width: 100%;
+        margin: 20px auto 0;;
+    }
+
+    .box-business-inner .box-icon {
+        width: 33.33%;
+    }
+
+    .box-business-inner .box-icon:nth-child(3) {
+        padding-right: 0;
+    }
+
+    .box-icon-warpper {
+        height: 65px;
+    }
+
+    .box-icon-item {
+        padding: 15px 20px;
+    }
+
+    .box-icon-text {
+        padding-top: 5px;
+    }
+
+    .box-icon:last-child {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .box-corporate-inner {
+        flex-direction: column-reverse;
+    }
+
+    .box-recruit-content {
+        padding: 100px 30px 50px;
+    }
+
+    .box-recruit-text .text-detail {
+        padding: 30px 0;
+    }
+
+    .box-recruit-content .box-button-more {
+        margin-top: 30px;
+    }
+
+    .box-content-corporate {
+        padding: 50px;
+    }
+
+    .breadcrumb-parent,
+    .breadcrumb-child,
+    .box-breadcrumb {
+        display: block;
+    }
+
+    .box-breadcrumb .breadcrumb-child {
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .box-breadcrumb .breadcrumb-parent:after {
+        content: none;
+    }
+
+    .box-breadcrumb {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .scroll-to-top {
+        position: fixed;
+        bottom: 135px;
+        right: -50px;
+    }
+
+    .footer .text-footer {
+        text-align: center;
+    }
+}
