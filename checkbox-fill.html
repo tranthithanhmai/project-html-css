@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Checkbox</title>
+</head>
+<style>
+  .hideme {
+  display: none;
+}
+
+.woo {
+  cursor: pointer;
+}
+
+.hideme + .woo:before {
+  width: 14px;
+  height: 14px;
+  border: 1px solid gray;
+  border-radius: 0;
+  background: #fff;
+  position: relative;
+  display: inline-block;
+  margin-right: 1ex;
+  content: "";
+}
+
+.hideme:checked + .woo:before {
+  background: #000;
+}
+</style>
+<body>
+  <input type="checkbox" class="hideme" id="myinput" /><label class="woo" for="myinput">Click me</label>
+</body>
+</html>
